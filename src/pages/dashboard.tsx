@@ -79,6 +79,7 @@ export default function Dashboard() {
             <Text fontSize="lg" mb="4">
               Inscritos da semana
             </Text>
+            {/* @ts-ignore-error */}
             <Chart options={options} series={series} type="area" height={160} />
           </Box>
 
@@ -86,6 +87,7 @@ export default function Dashboard() {
             <Text fontSize="lg" mb="4">
               Taxa de abertura
             </Text>
+            {/* @ts-ignore-error */}
             <Chart options={options} series={series} type="area" height={160} />
           </Box>
         </SimpleGrid>
